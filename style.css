@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    background-color: #F7F9FC;
+}
+
+.banner {
+    background-image: url("https://source.unsplash.com/random/1000x800");
+    background-size: cover;
+    width: 100%;
+    color: white;
+    padding: 150px 0;
+}
+
+.container-banner {
+    width: 700px;
+    margin: 0 auto;
+}
+
+@media(max-width: 992px) {
+    .container-banner {
+      width: 600px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    .container-banner {
+      width: 500px;
+    }
+  }
+
+@media(max-width: 576px) {
+    .container-banner {
+      width: 300px;
+    }
+  }
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+}
+
+.container.website-content {
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px auto;
+}
+
+h2 {
+    margin: 10px 0 0;
+    font-size: 30px;
+
+}
+
+.subttile-first_chapter {
+    font-family: 'Lora';
+    margin: 5px 0 15px;
+}
+
+.profile-container {
+    display: flex;
+}
+
+.container-text-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a5a5a5;
+}
+
+.author-img-rounded {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.card {
+    margin: 0 auto;
+    width: 700px;
+}
+
+@media(max-width: 992px) {
+    .card {
+      width: 500px;
+    }
+  }
+
+  @media(max-width: 650px) {
+    .card {
+      width: 400px;
+    }
+  }
+
+  @media(max-width: 425px) {
+    .card {
+      width: 270px;
+    }
+  }
+
+  h2, h3 {
+    letter-spacing: 2px;
+    color: rgb(141, 0, 0);
+    font-family: 'Zilla Slab', serif;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+}
+
+.footer ul {
+    padding: 0;
+    display: flex;
+}
+
+.footer li {
+    margin: 0 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+}
+
+.footer i {
+    font-size: 30px;
+}
+
+.footer i:hover {
+    color: rgb(141, 0, 0);
+    transition: 0.5s;
+}
